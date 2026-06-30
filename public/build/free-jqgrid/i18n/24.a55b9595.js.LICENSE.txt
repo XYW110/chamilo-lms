@@ -1,0 +1,9 @@
+/**
+ * @license jqGrid (fi) Finnish Translation
+ * Jukka Inkeri  awot.fi  2010-05-19
+ * Alex Grönholm  alex.gronholm@nextday.fi  2011-05-18
+ * http://awot.fi
+ * Dual licensed under the MIT and GPL licenses:
+ * http://www.opensource.org/licenses/mit-license.php
+ * http://www.gnu.org/licenses/gpl.html
+**/

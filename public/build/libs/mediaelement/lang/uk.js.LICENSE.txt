@@ -1,0 +1,10 @@
+/*!
+ * This is a `i18n` language object.
+ *
+ * Ukrainian
+ *
+ * @author
+ *   Dmitry Krekota (dmitry.krekota@gmail.com)
+ *
+ * @see core/i18n.js
+ */

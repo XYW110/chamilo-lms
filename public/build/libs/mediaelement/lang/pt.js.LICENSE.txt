@@ -1,0 +1,11 @@
+/*!
+ * This is a `i18n` language object.
+ *
+ * Portuguese
+ *
+ * @author
+ *   Jalios (Twitter: @Jalios)
+ *   Sascha Greuel (Twitter: @SoftCreatR)
+ *
+ * @see core/i18n.js
+ */

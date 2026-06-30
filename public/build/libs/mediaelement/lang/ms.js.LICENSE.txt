@@ -1,0 +1,11 @@
+/*!
+ * This is a `i18n` language object.
+ *
+ * Malay (for inter-country use - see the countries mentioned in infobox`s `native to` at https://en.wikipedia.org/wiki/Malay_language)
+ *
+ * @author
+ *   muhdnurhidayat (Twitter: @mnh48com)
+ *   Sascha Greuel (Twitter: @SoftCreatR)
+ *
+ * @see core/i18n.js
+ */

@@ -1,0 +1,19 @@
+/**
+ * @license jqGrid German Translation
+ * Version 1.0.0 (developed for jQuery Grid 3.3.1)
+ * Olaf Klöppel opensource@blue-hit.de
+ * http://blue-hit.de/
+ *
+ * Updated for jqGrid 3.8
+ * Andreas Flack
+ * http://www.contentcontrol-berlin.de
+ *
+ * Updated for jQuery 4.4 and for 4.8 by
+ * Oleg Kiriljuk oleg.kiriljuk@ok-soft-gmbh.com
+ * the format corresponds now the format from
+ * https://github.com/jquery/globalize/blob/master/lib/cultures/globalize.culture.de.js
+ *
+ * Dual licensed under the MIT and GPL licenses:
+ * http://www.opensource.org/licenses/mit-license.php
+ * http://www.gnu.org/licenses/gpl.html
+**/

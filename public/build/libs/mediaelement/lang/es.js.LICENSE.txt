@@ -1,0 +1,12 @@
+/*!
+ * This is a `i18n` language object.
+ *
+ * Spanish
+ *
+ * @author
+ *   Jalios (Twitter: @Jalios)
+ *   Sascha Greuel (Twitter: @SoftCreatR)
+ *   Rafael Miranda (GitHub: @rafa8626)
+ *
+ * @see core/i18n.js
+ */

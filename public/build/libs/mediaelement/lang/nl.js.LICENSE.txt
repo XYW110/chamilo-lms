@@ -1,0 +1,12 @@
+/*!
+ * This is a `i18n` language object.
+ *
+ * Dutch
+ *
+ * @author
+ *   Leonard de Ruijter, Twitter: @LeonarddR
+ *   Jalios (Twitter: @Jalios)
+ *   Sascha 'SoftCreatR' Greuel
+ *
+ * @see core/i18n.js
+ */

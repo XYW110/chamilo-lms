@@ -1,0 +1,13 @@
+/**
+ * @license jqGrid Catalan Translation
+ *
+ * Traducció jqGrid en Català per Faserline, S.L.
+ * http://www.faserline.com
+ *
+ * Traducció corregida i ampliada per Marc lobato
+ * http://www.navigatecms.com
+ *
+ * Dual licensed under the MIT and GPL licenses:
+ * http://www.opensource.org/licenses/mit-license.php
+ * http://www.gnu.org/licenses/gpl.html
+**/

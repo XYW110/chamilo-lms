@@ -1,0 +1,12 @@
+/*!
+ * This is a `i18n` language object.
+ *
+ * Chinese (Traditional)
+ *
+ * @author
+ *   Jalios (Twitter: @Jalios)
+ *   Sascha Greuel (Twitter: @SoftCreatR)
+ *   Peter Dave Hello (Twitter: @PeterDaveHello)
+ *
+ * @see core/i18n.js
+ */

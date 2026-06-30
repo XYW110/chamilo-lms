@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkChamilo=self.webpackChunkChamilo||[]).push([[9374],{66993(e,r,n){n.r(r),n.d(r,{default:()=>u});var o=n(20641);const t={name:"ToolIntroLayout"};const u=(0,n(66262).A)(t,[["render",function(e,r,n,t,u,a){var s=(0,o.g2)("router-view");return(0,o.uX)(),(0,o.Wv)(s)}]])}}]);

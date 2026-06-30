@@ -1,0 +1,174 @@
+{
+  "entrypoints": {
+    "legacy_app": {
+      "js": [
+        "/build/runtime.74e65bc3.js",
+        "/build/legacy_app.57b5421b.js"
+      ],
+      "css": [
+        "/build/legacy_app.1ee2e7c1.css"
+      ]
+    },
+    "legacy_exercise": {
+      "js": [
+        "/build/runtime.74e65bc3.js",
+        "/build/legacy_exercise.05c2ee25.js"
+      ]
+    },
+    "legacy_free-jqgrid": {
+      "js": [
+        "/build/runtime.74e65bc3.js",
+        "/build/legacy_free-jqgrid.3b783ce8.js"
+      ],
+      "css": [
+        "/build/legacy_free-jqgrid.407f2633.css"
+      ]
+    },
+    "legacy_lp": {
+      "js": [
+        "/build/runtime.74e65bc3.js",
+        "/build/legacy_lp.e8d7a0d1.js"
+      ]
+    },
+    "legacy_document": {
+      "js": [
+        "/build/runtime.74e65bc3.js",
+        "/build/legacy_document.a3eb93a9.js"
+      ]
+    },
+    "legacy_framereadyloader": {
+      "js": [
+        "/build/runtime.74e65bc3.js",
+        "/build/legacy_framereadyloader.cbcc3f82.js"
+      ],
+      "css": [
+        "/build/legacy_framereadyloader.d50a982d.css"
+      ]
+    },
+    "vue": {
+      "js": [
+        "/build/runtime.74e65bc3.js",
+        "/build/vue.f36fc4b2.js"
+      ],
+      "css": [
+        "/build/vue.4432171a.css"
+      ]
+    },
+    "vue_installer": {
+      "js": [
+        "/build/runtime.74e65bc3.js",
+        "/build/vue_installer.87ae68b0.js"
+      ]
+    },
+    "translatehtml": {
+      "js": [
+        "/build/runtime.74e65bc3.js",
+        "/build/translatehtml.ff75303b.js"
+      ]
+    },
+    "glossary_auto": {
+      "js": [
+        "/build/runtime.74e65bc3.js",
+        "/build/glossary_auto.53ee9c0d.js"
+      ]
+    },
+    "app": {
+      "js": [
+        "/build/runtime.74e65bc3.js"
+      ],
+      "css": [
+        "/build/app.1b2b23f1.css"
+      ]
+    },
+    "css/chat": {
+      "js": [
+        "/build/runtime.74e65bc3.js"
+      ],
+      "css": [
+        "/build/css/chat.3489adfb.css"
+      ]
+    },
+    "css/document": {
+      "js": [
+        "/build/runtime.74e65bc3.js"
+      ],
+      "css": [
+        "/build/css/document.d0dd9595.css"
+      ]
+    },
+    "css/editor": {
+      "js": [
+        "/build/runtime.74e65bc3.js"
+      ],
+      "css": [
+        "/build/css/editor.31d6cfe0.css"
+      ]
+    },
+    "css/editor_content": {
+      "js": [
+        "/build/runtime.74e65bc3.js"
+      ],
+      "css": [
+        "/build/css/editor_content.bbb21103.css"
+      ]
+    },
+    "css/markdown": {
+      "js": [
+        "/build/runtime.74e65bc3.js"
+      ],
+      "css": [
+        "/build/css/markdown.793dff47.css"
+      ]
+    },
+    "css/print": {
+      "js": [
+        "/build/runtime.74e65bc3.js"
+      ],
+      "css": [
+        "/build/css/print.9ae2165e.css"
+      ]
+    },
+    "css/responsive": {
+      "js": [
+        "/build/runtime.74e65bc3.js"
+      ],
+      "css": [
+        "/build/css/responsive.11506274.css"
+      ]
+    },
+    "css/scorm": {
+      "js": [
+        "/build/runtime.74e65bc3.js"
+      ],
+      "css": [
+        "/build/css/scorm.2964b484.css"
+      ]
+    }
+  },
+  "integrity": {
+    "/build/runtime.74e65bc3.js": "sha384-iMxuwTOxLckwumrFs7fFJhL32UHln+P9i8UznXYGqvYmYOczIjcjBIBh6V7RJWAf",
+    "/build/legacy_app.57b5421b.js": "sha384-8ER7ZcV7L2cCV/VXljUa+VFWINwKnOA5Kyc/5quGUFFAt1FLWimB59d2rGPxoxKb",
+    "/build/legacy_app.1ee2e7c1.css": "sha384-PgHTq3VzZXGyIfFVPtNUjP75DPFICG5x70jEnGA8A7gdI/lQ9VxLlQjlatwdNUhw",
+    "/build/legacy_exercise.05c2ee25.js": "sha384-P3VAWhCAwskpfGUN7G34TY6ey5HyJtRm8/Mje+oz6fVb2a9OyF23k0ekkTukqGQz",
+    "/build/legacy_free-jqgrid.3b783ce8.js": "sha384-kEyC/pHcogwPgbnvPKcDiK5AU9nvAbsKYyHWOhWsn5QWh/8aUX8J5vl+X0iedNIy",
+    "/build/legacy_free-jqgrid.407f2633.css": "sha384-wbDuHhbG1dytkz1WsNPP5A3pnLREZL7SRuZwG/D2PxzJHr1/d1hCd1kF0kb0mzxC",
+    "/build/legacy_lp.e8d7a0d1.js": "sha384-Y8X8Ril+BDaIy0jxRqw2B/YLsSce7GV6Inu9XZhcgizTdI8haAKGW90MKB1PM3cf",
+    "/build/legacy_document.a3eb93a9.js": "sha384-/GfMzC/HmnpEwTAwP2J7Sq8H9aCJ8/Rx3+26mVwe394FlSnn4Wof2KAbSpfTHkWT",
+    "/build/legacy_framereadyloader.cbcc3f82.js": "sha384-cQnXdgEpwNVg2ojcBao/+C/U32T5RionaoYqgy0VECI3oSejZsBwlUZrkD750c9h",
+    "/build/legacy_framereadyloader.d50a982d.css": "sha384-rvijFhoBeaSQe797E79Jd55MggBDTtVo31m8rhXqLuL/XIE9I5JPp1J8KCFYLvfa",
+    "/build/vue.f36fc4b2.js": "sha384-qCUlkFnZ6kRe0XanhFTtmmBrA1vobECv30OBfBJTG5z7lNJl1UeyVryqcP3NMPcL",
+    "/build/vue.4432171a.css": "sha384-Bu6B4gpKQLW9So+KKgg6KCgXXHDL5kGYZYheoysdmtV0sDsZlJMJGVumiA0JqVM5",
+    "/build/vue_installer.87ae68b0.js": "sha384-ge5Ri82MW01pAz1t7N7F6rUpc9MARceA0A0GXPy56Ql2V6+Yiyd1GvVtG8obIgTj",
+    "/build/translatehtml.ff75303b.js": "sha384-EMy5OeRG0dJtLFSvggjHDXAdQ1m9OHYXZhtslBicClNpcpGwYW8+0/CnD+FQmbnR",
+    "/build/glossary_auto.53ee9c0d.js": "sha384-9+t1n6FgF4langYwGULoZ/wLdQWficpPFyoc26ZZrISzLibtuFq1ggkV0UTmyJSE",
+    "/build/app.1b2b23f1.css": "sha384-TgnhgfMz1FPq4R5nZ226joR3OcHY7N4tA3VGV7SU/e+g//1m46oQ6h+Ai7mBeC3q",
+    "/build/css/chat.3489adfb.css": "sha384-mbH0kP+4ojXtzLq2y843EW5em30UDsqxijR3q1wHuKW7RFs6lxRk6GOuyLh1LK5e",
+    "/build/css/document.d0dd9595.css": "sha384-AAhPquq0hPhIDSZ9YapvHvF1skLTFxHHLHPOUnHaP5/YYzc/PDgidI/MatIW82cR",
+    "/build/css/editor.31d6cfe0.css": "sha384-OLBgp1GsljhM2TJ+sbHjaiH9txEUvgdDTAzHv2P24donTt6/529l+9Ua0vFImLlb",
+    "/build/css/editor_content.bbb21103.css": "sha384-xHt0dF9rCSyUrUrDYIOrCtvFKfZetC4G4aAJfRedAB3Kt4qpGRDzhZ7r2GDKS1ah",
+    "/build/css/markdown.793dff47.css": "sha384-OLpfYGSR8Yt5ZupoBFK2lBC2cYq2Adyuw1UV4vzmif2McLMPjnil9n6diVl6Rn/2",
+    "/build/css/print.9ae2165e.css": "sha384-wYcG6oFiTRrqNCHOHel4yusD5RCOC51Hfj6Dc8mRoe4nUZqqNqu7sJDzKF/1BHu1",
+    "/build/css/responsive.11506274.css": "sha384-qs9Q37aFaORa8I4K6oKTJw20IeE5/vTWF2+W7IQXATzUawZTgUWCnBAOpdvD5yHR",
+    "/build/css/scorm.2964b484.css": "sha384-dFVsDn91z201HtslZwdsMsEbNfQVlBmts/Rf5lIj81NEP33r2BsCPjKmv+39+kDF"
+  }
+}

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkChamilo=self.webpackChunkChamilo||[]).push([[3648],{3648(e,r,u){u.r(r),u.d(r,{default:()=>t});var a=u(20641);const n={},t=(0,u(66262).A)(n,[["render",function(e,r){var u=(0,a.g2)("RouterView");return(0,a.uX)(),(0,a.Wv)(u)}]])}}]);

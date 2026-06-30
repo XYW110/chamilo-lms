@@ -1,0 +1,10 @@
+/*!
+ * This is a `i18n` language object.
+ *
+ * Catalan
+ *
+ * @author
+ * 	Tongro
+ *
+ * @see core/i18n.js
+ */

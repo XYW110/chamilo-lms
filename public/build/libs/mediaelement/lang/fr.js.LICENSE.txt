@@ -1,0 +1,12 @@
+/*!
+ * This is a `i18n` language object.
+ *
+ * French
+ *
+ * @author
+ *   Luc Poupard (Twitter: @klohFR)
+ *   Jalios (Twitter: @Jalios)
+ *   Sascha Greuel (Twitter: @SoftCreatR)
+ *
+ * @see core/i18n.js
+ */

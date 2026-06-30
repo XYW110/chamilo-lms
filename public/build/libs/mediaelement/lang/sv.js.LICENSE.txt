@@ -1,0 +1,10 @@
+/*!
+ * This is a `i18n` language object.
+ *
+ * Swedish
+ *
+ * @author
+ *   Petter (Twitter: @petter_j)
+ *
+ * @see core/i18n.js
+ */

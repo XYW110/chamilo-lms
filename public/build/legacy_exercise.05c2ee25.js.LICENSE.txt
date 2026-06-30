@@ -1,0 +1,57 @@
+/*!
+   Date formatting plugin
+ 
+   Copyright (c) Eric Garside
+   Dual licensed under:
+       MIT: http://www.opensource.org/licenses/mit-license.php
+       GPLv3: http://www.opensource.org/licenses/gpl-3.0.html
+ */
+
+/*!
+ *  epiClock 3.0
+ *
+ *  Copyright (c) 2008 Eric Garside
+ *  Dual licensed under:
+ *      MIT: http://www.opensource.org/licenses/mit-license.php
+ *      GPLv3: http://www.opensource.org/licenses/gpl-3.0.html
+ */
+
+/*!
+ *  minute countdown renderer for epiclock
+ *
+ *  Copyright (c) Eric Garside
+ *  Copyright (c) Chamilo team
+ *  Dual licensed under:
+ *      MIT: http://www.opensource.org/licenses/mit-license.php
+ *      GPLv3: http://www.opensource.org/licenses/gpl-3.0.html
+ */
+
+/*!
+ * jQuery JavaScript Library v3.7.1
+ * https://jquery.com/
+ *
+ * Copyright OpenJS Foundation and other contributors
+ * Released under the MIT license
+ * https://jquery.org/license
+ *
+ * Date: 2023-08-28T13:37Z
+ */
+
+/*!
+ * jQuery UI Touch Punch 0.2.3
+ *
+ * Copyright 2011–2014, Dave Furfero
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ *
+ * Depends:
+ *  jquery.ui.widget.js
+ *  jquery.ui.mouse.js
+ */
+
+/**
+ * @license jQuery paging plugin v1.8 06/21/2010
+ * http://www.xarg.org/project/jquery-color-plugin-xcolor/
+ *
+ * Copyright (c) 2010, Robert Eisele (robert@xarg.org)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ **/

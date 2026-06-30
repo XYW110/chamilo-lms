@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkChamilo=self.webpackChunkChamilo||[]).push([[4734],{44734(e,n,u){u.r(n),u.d(n,{default:()=>r});const l={},r=(0,u(66262).A)(l,[["render",function(e,n){return null}]])}}]);

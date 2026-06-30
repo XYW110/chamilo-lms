@@ -1,0 +1,10 @@
+/*!
+ * This is a `i18n` language object.
+ *
+ * Persian
+ *
+ * @author
+ *   wmateam (GitHub: @wmateam)
+ *
+ * @see core/i18n.js
+ */
