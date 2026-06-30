@@ -1,10 +1,18 @@
 FROM composer:2 AS vendor
 WORKDIR /app
-COPY . .
+COPY composer.json composer.lock ./
+COPY public/ public/
+COPY src/ src/
+COPY config/ config/
+COPY bin/ bin/
+COPY var/ var/
+COPY assets/ assets/
+COPY translations/ translations/
+COPY .env.dist ./
+COPY webpack.config.js tailwind.config.js package.json ./
 RUN composer install --no-dev --no-scripts --no-interaction --optimize-autoloader --ignore-platform-reqs
 
 FROM php:8.2-fpm-alpine
-LABEL description="Chamilo LMS"
 RUN apk add --no-cache libzip-dev icu-dev libxml2-dev openldap-dev freetype-dev libjpeg-turbo-dev libpng-dev autoconf g++ make
 RUN docker-php-ext-configure gd --with-freetype --with-jpeg && docker-php-ext-install -j$(nproc) intl gd pdo_mysql zip bcmath exif pcntl opcache xml ldap
 RUN pecl install apcu && docker-php-ext-enable apcu && apk del autoconf g++ make && rm -rf /tmp/pear
