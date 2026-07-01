@@ -11,13 +11,10 @@ jobs:
       packages: write
     steps:
       - uses: actions/checkout@v4
-      - name: Login (PAT with write_packages)
-        run: echo "${{ secrets.GH_TOKEN }}" | docker login ghcr.io -u XYW110 --password-stdin
-      - name: Build & push
+      - name: Login
+        run: echo "${{ secrets.GH_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+      - name: Build and push
         run: |
-          REPO=$(echo "${{ github.repository }}" | tr '[:upper:]' '[:lower:]')
-          IMG=ghcr.io/$REPO
-          docker build -t $IMG:latest .
-          docker push $IMG:latest
-          docker tag $IMG:latest $IMG:v2.0.3
-          docker push $IMG:v2.0.3
+          IMG=ghcr.io/$(echo "${{ github.repository }}" | tr '[:upper:]' '[:lower:]')
+          docker build -t $IMG:latest -t $IMG:v2.0.3 .
+          docker push $IMG --all-tags
