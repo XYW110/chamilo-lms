@@ -12,7 +12,7 @@ RUN apk add --no-cache nginx libzip-dev icu-dev libxml2-dev openldap-dev freetyp
 COPY --from=vendor /usr/local/etc/php/ /usr/local/etc/php/
 COPY --from=vendor /app /var/www/chamilo
 RUN docker-php-ext-configure gd --with-freetype --with-jpeg && docker-php-ext-install -j$(nproc) intl gd pdo_mysql zip exif ldap
-RUN chown -R www-data:www-data /var/www/chamilo/var /var/www/chamilo/config /var/www/chamilo/public/build /var/www/chamilo/vendor /var/www/chamilo/public/uploads /var/www/chamilo/.env  && chmod -R 775 /var/www/chamilo/var /var/www/chamilo/config /var/www/chamilo/public/uploads
+RUN touch /var/www/chamilo/.env && chown www-data:www-data /var/www/chamilo/.env && chmod 664 /var/www/chamilo/.env  && chown -R www-data:www-data /var/www/chamilo/var /var/www/chamilo/config /var/www/chamilo/public/build /var/www/chamilo/vendor /var/www/chamilo/public/uploads  && chmod -R 775 /var/www/chamilo/var /var/www/chamilo/config /var/www/chamilo/public/uploads
 RUN rm -f /etc/nginx/conf.d/default.conf /etc/nginx/http.d/default.conf
 COPY nginx.conf /etc/nginx/nginx.conf
 RUN echo "upload_max_filesize=64M" >> /usr/local/etc/php/conf.d/docker-php-ext-chamilo.ini  && echo "post_max_size=64M" >> /usr/local/etc/php/conf.d/docker-php-ext-chamilo.ini  && echo "memory_limit=256M" >> /usr/local/etc/php/conf.d/docker-php-ext-chamilo.ini  && echo "session.auto_start=Off" >> /usr/local/etc/php/conf.d/docker-php-ext-chamilo.ini  && echo "short_open_tag=Off" >> /usr/local/etc/php/conf.d/docker-php-ext-chamilo.ini  && echo "session.cookie_httponly=On" >> /usr/local/etc/php/conf.d/docker-php-ext-chamilo.ini  && echo "display_errors=Off" >> /usr/local/etc/php/conf.d/docker-php-ext-chamilo.ini
