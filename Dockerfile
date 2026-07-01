@@ -13,6 +13,7 @@ COPY --from=vendor /usr/local/etc/php/ /usr/local/etc/php/
 COPY --from=vendor /app /var/www/chamilo
 RUN docker-php-ext-install -j$(nproc) pdo_mysql
 RUN mkdir -p /var/www/chamilo/var /var/www/chamilo/config /var/www/chamilo/public/uploads /var/log/nginx  && chown -R www-data:www-data /var/www/chamilo/var /var/www/chamilo/config /var/www/chamilo/public/build /var/www/chamilo/vendor /var/www/chamilo/public/uploads  && chmod -R 775 /var/www/chamilo/var /var/www/chamilo/config /var/www/chamilo/public/uploads
+COPY nginx.conf /etc/nginx/conf.d/default.conf
 COPY nginx.conf /etc/nginx/http.d/default.conf
 WORKDIR /var/www/chamilo
 EXPOSE 80
