@@ -740,7 +740,7 @@ if (isset($_POST['step2'])) {
 
             error_log('Load kernel');
             // Load Symfony Kernel
-            $kernel = new Kernel('dev', true);
+            $kernel = new Kernel('prod', true);
             $application = new Application($kernel);
 
             // Create database schema
