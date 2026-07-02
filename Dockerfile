@@ -1,7 +1,7 @@
 FROM composer:2 AS vendor
 WORKDIR /app
 COPY . .
-RUN composer install --no-dev --no-interaction --optimize-autoloader --ignore-platform-reqs
+RUN composer install --no-dev --no-interaction --optimize-autoloader --ignore-platform-reqs --no-scripts
 
 FROM php:8.2-fpm-alpine
 LABEL org.opencontainers.image.source="https://github.com/XYW110/chamilo-lms"
