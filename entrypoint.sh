@@ -8,10 +8,12 @@ if [ -d /var/www/chamilo/var.default ] && [ ! -f /var/www/chamilo/var/cache/.git
     cp -r /var/www/chamilo/var.default/. /var/www/chamilo/var/
     chmod -R 777 /var/www/chamilo/var/
 fi
-if [ ! -f /var/www/chamilo/.env ]; then
-    cp /var/www/chamilo/.env.dist /var/www/chamilo/.env 2>/dev/null || true
-    chmod 777 /var/www/chamilo/.env 2>/dev/null || true
+# 确保 .env 存在且有 APP_ENV=prod
+if [ ! -f /var/www/chamilo/.env ] || [ ! -s /var/www/chamilo/.env ]; then
+    echo "APP_ENV=prod" > /var/www/chamilo/.env
+    echo "APP_DEBUG=0" >> /var/www/chamilo/.env
 fi
+chmod 777 /var/www/chamilo/.env 2>/dev/null || true
 # 启动 PHP-FPM + Nginx
 php-fpm -D
 nginx -g 'daemon off;'
