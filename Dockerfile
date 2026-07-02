@@ -1,7 +1,4 @@
-FROM php:8.2-fpm-alpine AS vendor
-WORKDIR /tmp
-ADD https://getcomposer.org/download/latest-2.x/composer.phar /usr/local/bin/composer
-RUN chmod +x /usr/local/bin/composer
+FROM composer:2 AS vendor
 WORKDIR /app
 COPY . .
 RUN composer install --no-dev --no-interaction --optimize-autoloader --ignore-platform-reqs
